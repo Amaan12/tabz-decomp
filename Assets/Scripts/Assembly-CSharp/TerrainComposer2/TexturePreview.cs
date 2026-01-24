@@ -45,7 +45,7 @@ namespace TerrainComposer2
 			}
 			else if (tex.width != resolution)
 			{
-				tex.Resize(resolution, resolution);
+				tex.Reinitialize(resolution, resolution);
 				return;
 			}
 			if (flag)

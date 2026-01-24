@@ -11,9 +11,9 @@ public class LookAtVelocity : MonoBehaviour
 
 	private void Update()
 	{
-		if (rig.velocity.magnitude != 0f)
+		if (rig.linearVelocity.magnitude != 0f)
 		{
-			base.transform.rotation = Quaternion.LookRotation(rig.velocity);
+			base.transform.rotation = Quaternion.LookRotation(rig.linearVelocity);
 		}
 	}
 }

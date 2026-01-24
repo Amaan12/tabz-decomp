@@ -120,8 +120,8 @@ public class PhysicsAmimationController : MonoBehaviour
 		foreach (Rigidbody rigidbody in componentsInChildren)
 		{
 			rigidbody.maxAngularVelocity = maxAngular;
-			rigidbody.drag = drag;
-			rigidbody.angularDrag = angularDrag;
+			rigidbody.linearDamping = drag;
+			rigidbody.angularDamping = angularDrag;
 		}
 		forward = GetComponentInChildren<ForwardTag>().transform;
 		right = GetComponentInChildren<RightTag>().transform;
@@ -141,7 +141,7 @@ public class PhysicsAmimationController : MonoBehaviour
 		{
 			mPhotonView.RPC("Fall", PhotonTargets.All, 3f);
 		}
-		if (mainRig.velocity.magnitude > 1f || mainRig.angularVelocity.magnitude > 0.5f)
+		if (mainRig.linearVelocity.magnitude > 1f || mainRig.angularVelocity.magnitude > 0.5f)
 		{
 			CheckSwitch();
 		}

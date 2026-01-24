@@ -22,6 +22,7 @@ public class DayNightCycle : Photon.MonoBehaviour
 	[SerializeField]
 	private bool mUseDynamicTime = true;
 
+	[SerializeField]
 	private float secondsPerDay = 3600f;
 
 	private void Start()
@@ -44,6 +45,6 @@ public class DayNightCycle : Photon.MonoBehaviour
 		RenderSettings.reflectionIntensity = ambientReflectionsSunCurve.Evaluate(time);
 		skyCore.Time = time;
 		sun.transform.localRotation = Quaternion.Euler(time * 120f + 40f, 0f, 0f);
-		time = (float)PhotonNetwork.time % secondsPerDay / secondsPerDay;
+		time = (float)Time.time % secondsPerDay / secondsPerDay;
 	}
 }

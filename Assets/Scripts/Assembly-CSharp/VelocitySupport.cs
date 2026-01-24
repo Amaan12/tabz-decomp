@@ -16,7 +16,7 @@ public class VelocitySupport : MonoBehaviour
 
 	private void Update()
 	{
-		Vector3 vector = new Vector3(mainRig.velocity.x, 0f, mainRig.velocity.z);
+		Vector3 vector = new Vector3(mainRig.linearVelocity.x, 0f, mainRig.linearVelocity.z);
 		Vector3 normalized = vector.normalized;
 		Vector3 to = base.transform.position - mainRig.transform.position;
 		to.y = 0f;

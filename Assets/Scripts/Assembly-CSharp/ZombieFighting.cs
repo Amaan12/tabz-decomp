@@ -91,13 +91,13 @@ public class ZombieFighting : MonoBehaviour
 		Rigidbody componentInParent = m_blackboard.TargetTransform.GetComponentInParent<Rigidbody>();
 		if (knockbackAwalys != 0f)
 		{
-			if (componentInParent.drag > 1f)
+			if (componentInParent.linearDamping > 1f)
 			{
-				componentInParent.velocity += (m_blackboard.SelfTransform.position - m_blackboard.TargetTransform.position) * (0f - knockbackAwalys);
+				componentInParent.linearVelocity += (m_blackboard.SelfTransform.position - m_blackboard.TargetTransform.position) * (0f - knockbackAwalys);
 			}
 			else
 			{
-				componentInParent.velocity += (m_blackboard.SelfTransform.position - m_blackboard.TargetTransform.position) * (0f - knockbackAwalys) * 0.03f;
+				componentInParent.linearVelocity += (m_blackboard.SelfTransform.position - m_blackboard.TargetTransform.position) * (0f - knockbackAwalys) * 0.03f;
 			}
 		}
 		PhotonView componentInParent2 = componentInParent.GetComponentInParent<PhotonView>();
@@ -105,20 +105,20 @@ public class ZombieFighting : MonoBehaviour
 		{
 			if (knockback != 0f)
 			{
-				if (componentInParent.drag > 1f)
+				if (componentInParent.linearDamping > 1f)
 				{
-					componentInParent.velocity += (m_blackboard.SelfTransform.position - m_blackboard.TargetTransform.position).normalized * (0f - knockback);
+					componentInParent.linearVelocity += (m_blackboard.SelfTransform.position - m_blackboard.TargetTransform.position).normalized * (0f - knockback);
 					if (knockbackUp != 0f)
 					{
-						componentInParent.velocity += Vector3.up * knockbackUp;
+						componentInParent.linearVelocity += Vector3.up * knockbackUp;
 					}
 				}
 				else
 				{
-					componentInParent.velocity += (m_blackboard.SelfTransform.position - m_blackboard.TargetTransform.position).normalized * (0f - knockback) * 0.05f;
+					componentInParent.linearVelocity += (m_blackboard.SelfTransform.position - m_blackboard.TargetTransform.position).normalized * (0f - knockback) * 0.05f;
 					if (knockbackUp != 0f)
 					{
-						componentInParent.velocity += Vector3.up * knockbackUp * 0.05f;
+						componentInParent.linearVelocity += Vector3.up * knockbackUp * 0.05f;
 					}
 				}
 			}

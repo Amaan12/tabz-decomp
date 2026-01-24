@@ -213,8 +213,8 @@ public class HealthHandler : PunBehaviour
 		foreach (Rigidbody rigidbody in componentsInChildren2)
 		{
 			rigidbody.constraints = RigidbodyConstraints.None;
-			rigidbody.drag = 0f;
-			rigidbody.angularDrag = 0f;
+			rigidbody.linearDamping = 0f;
+			rigidbody.angularDamping = 0f;
 		}
 		Collider[] componentsInChildren3 = GetComponentsInChildren<Collider>();
 		foreach (Collider collider in componentsInChildren3)
@@ -301,8 +301,8 @@ public class HealthHandler : PunBehaviour
 		foreach (Rigidbody rigidbody in componentsInChildren2)
 		{
 			rigidbody.constraints = RigidbodyConstraints.None;
-			rigidbody.drag = 0f;
-			rigidbody.angularDrag = 0f;
+			rigidbody.linearDamping = 0f;
+			rigidbody.angularDamping = 0f;
 		}
 		if (!base.gameObject.activeInHierarchy)
 		{

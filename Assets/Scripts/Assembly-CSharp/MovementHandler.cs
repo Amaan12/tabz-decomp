@@ -95,7 +95,7 @@ public class MovementHandler : MonoBehaviour
 		{
 			for (int i = 0; i < allRigs.Length; i++)
 			{
-				allRigs[i].velocity = Vector3.up * m_blackboard.JumpForce / 60f;
+				allRigs[i].linearVelocity = Vector3.up * m_blackboard.JumpForce / 60f;
 			}
 			gravity = -0.3f;
 		}

@@ -9,6 +9,7 @@ EditorBuildSettings:
     path: Assets/TABZMainMenu.unity
     guid: fb7b86f9f03a61047b0d1873ce3deb06
   - enabled: 1
-    path: Assets/7 Scenes/TABZ_World.unity
+    path: Assets/TABZ/7 Scenes/TABZ_World.unity
     guid: 4463f858bb79d0944a400ac2390f5eb9
   m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0

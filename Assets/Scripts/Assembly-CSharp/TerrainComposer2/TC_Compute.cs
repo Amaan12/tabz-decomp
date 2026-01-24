@@ -1272,7 +1272,7 @@ namespace TerrainComposer2
 					TC_Reporter.Log(textures[i].name + " is assigned");
 					if (textures[i].width != current.intResolution.x || textures[i].height != current.intResolution.y)
 					{
-						textures[i].Resize(current.intResolution.x, current.intResolution.y);
+						textures[i].Reinitialize(current.intResolution.x, current.intResolution.y);
 					}
 				}
 				else
@@ -1298,7 +1298,7 @@ namespace TerrainComposer2
 					{
 						if (tex.width != @int.x || tex.height != @int.y)
 						{
-							tex.Resize(@int.x, @int.y);
+							tex.Reinitialize(@int.x, @int.y);
 						}
 						return;
 					}

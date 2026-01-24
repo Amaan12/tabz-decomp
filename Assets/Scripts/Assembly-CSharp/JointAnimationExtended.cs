@@ -69,7 +69,7 @@ public class JointAnimationExtended : MonoBehaviour
 			}
 			if (direction == Direction.velocity)
 			{
-				dir = controller.mainRig.velocity.normalized;
+				dir = controller.mainRig.linearVelocity.normalized;
 				dir.y = 0f;
 			}
 		}
@@ -89,7 +89,7 @@ public class JointAnimationExtended : MonoBehaviour
 			}
 			if (direction == Direction.velocity)
 			{
-				dir = controller.mainRig.velocity.normalized;
+				dir = controller.mainRig.linearVelocity.normalized;
 				dir.y = 0f;
 			}
 		}

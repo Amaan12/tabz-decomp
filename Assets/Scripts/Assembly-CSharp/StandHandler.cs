@@ -48,7 +48,7 @@ public class StandHandler : MonoBehaviour
 
 	private float[] m_rigStartAngDrag;
 
-	private PhysicMaterial[] myMaterials;
+	private PhysicsMaterial[] myMaterials;
 
 	private Collider[] colliders;
 
@@ -71,11 +71,11 @@ public class StandHandler : MonoBehaviour
 		colliders = GetComponentsInChildren<Collider>();
 		m_rigStartDrag = new float[m_rigidbodies.Length];
 		m_rigStartAngDrag = new float[m_rigidbodies.Length];
-		myMaterials = new PhysicMaterial[colliders.Length];
+		myMaterials = new PhysicsMaterial[colliders.Length];
 		for (int i = 0; i < m_rigidbodies.Length; i++)
 		{
-			m_rigStartDrag[i] = m_rigidbodies[i].drag;
-			m_rigStartAngDrag[i] = m_rigidbodies[i].angularDrag;
+			m_rigStartDrag[i] = m_rigidbodies[i].linearDamping;
+			m_rigStartAngDrag[i] = m_rigidbodies[i].angularDamping;
 		}
 		for (int j = 0; j < colliders.Length; j++)
 		{
@@ -194,8 +194,8 @@ public class StandHandler : MonoBehaviour
 			m_isStanding = true;
 			for (int i = 0; i < m_rigidbodies.Length; i++)
 			{
-				m_rigidbodies[i].drag = m_rigStartDrag[i];
-				m_rigidbodies[i].angularDrag = m_rigStartAngDrag[i];
+				m_rigidbodies[i].linearDamping = m_rigStartDrag[i];
+				m_rigidbodies[i].angularDamping = m_rigStartAngDrag[i];
 			}
 			for (int j = 0; j < colliders.Length; j++)
 			{
@@ -206,7 +206,7 @@ public class StandHandler : MonoBehaviour
 		{
 			if (heightMultiplier != 0f && multiplier * liftForces[k] * heightMultiplier != 0f)
 			{
-				rigsToLift[k].AddForce(Vector3.up * liftForces[k] * multiplier * (heightMultiplier + Mathf.Clamp(animController.mainRig.velocity.magnitude * 0.02f, 0f, 1f)) * Time.deltaTime, ForceMode.Acceleration);
+				rigsToLift[k].AddForce(Vector3.up * liftForces[k] * multiplier * (heightMultiplier + Mathf.Clamp(animController.mainRig.linearVelocity.magnitude * 0.02f, 0f, 1f)) * Time.deltaTime, ForceMode.Acceleration);
 			}
 		}
 	}
@@ -227,20 +227,20 @@ public class StandHandler : MonoBehaviour
 			m_isStanding = false;
 			for (int i = 0; i < m_rigidbodies.Length; i++)
 			{
-				m_rigidbodies[i].drag = 0.5f;
-				m_rigidbodies[i].angularDrag = 0.5f;
+				m_rigidbodies[i].linearDamping = 0.5f;
+				m_rigidbodies[i].angularDamping = 0.5f;
 			}
 			for (int j = 0; j < colliders.Length; j++)
 			{
 				colliders[j].material = null;
 			}
 		}
-		if (rigsToLift[0].velocity.magnitude > 10f && rigsToLift[0].velocity.y > -5f)
+		if (rigsToLift[0].linearVelocity.magnitude > 10f && rigsToLift[0].linearVelocity.y > -5f)
 		{
 			Rigidbody[] componentsInChildren = GetComponentsInChildren<Rigidbody>();
 			for (int k = 0; k < componentsInChildren.Length; k++)
 			{
-				componentsInChildren[k].velocity *= 0.01f;
+				componentsInChildren[k].linearVelocity *= 0.01f;
 			}
 		}
 	}
@@ -258,20 +258,20 @@ public class StandHandler : MonoBehaviour
 			m_isStanding = false;
 			for (int i = 0; i < m_rigidbodies.Length; i++)
 			{
-				m_rigidbodies[i].drag = 0.5f;
-				m_rigidbodies[i].angularDrag = 0.5f;
+				m_rigidbodies[i].linearDamping = 0.5f;
+				m_rigidbodies[i].angularDamping = 0.5f;
 			}
 			for (int j = 0; j < colliders.Length; j++)
 			{
 				colliders[j].material = null;
 			}
 		}
-		if (rigsToLift[0].velocity.magnitude > 10f && rigsToLift[0].velocity.y > -5f)
+		if (rigsToLift[0].linearVelocity.magnitude > 10f && rigsToLift[0].linearVelocity.y > -5f)
 		{
 			Rigidbody[] componentsInChildren = GetComponentsInChildren<Rigidbody>();
 			for (int k = 0; k < componentsInChildren.Length; k++)
 			{
-				componentsInChildren[k].velocity *= 0.01f;
+				componentsInChildren[k].linearVelocity *= 0.01f;
 			}
 		}
 	}

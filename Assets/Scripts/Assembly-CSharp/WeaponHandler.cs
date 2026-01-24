@@ -652,7 +652,7 @@ public class WeaponHandler : PunBehaviour
 				if (!flag && hasGrabbedRight)
 				{
 					leftArm.GetComponentInChildren<Collider>().enabled = false;
-					leftArm.velocity += (leftHandTag.position - leftArm.transform.GetChild(1).position).normalized * 10f;
+					leftArm.linearVelocity += (leftHandTag.position - leftArm.transform.GetChild(1).position).normalized * 10f;
 					if (Vector3.Distance(leftHandTag.position, leftArm.transform.GetChild(1).position) < 0.1f)
 					{
 						leftArm.GetComponentInChildren<Collider>().enabled = true;
@@ -673,7 +673,7 @@ public class WeaponHandler : PunBehaviour
 			if (!hasGrabbedRight)
 			{
 				rightArm.GetComponentInChildren<Collider>().enabled = false;
-				rightArm.velocity += (transform.position - rightArm.transform.GetChild(1).position).normalized * 10f;
+				rightArm.linearVelocity += (transform.position - rightArm.transform.GetChild(1).position).normalized * 10f;
 				if (Vector3.Distance(transform.position, rightArm.transform.GetChild(1).position) < 0.1f)
 				{
 					rightArm.GetComponentInChildren<Collider>().enabled = true;
@@ -691,7 +691,7 @@ public class WeaponHandler : PunBehaviour
 				}
 			}
 		}
-		weapon.velocity *= 0f;
+		weapon.linearVelocity *= 0f;
 		if (flag && hasGrabbedRight)
 		{
 			grabbingWeapon = false;
