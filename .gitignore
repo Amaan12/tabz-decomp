@@ -1,0 +1,112 @@
+# =========================================
+# Unity generated files
+# =========================================
+
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+UserSettings/
+
+# Memory captures
+[Mm]emoryCaptures/
+
+# Recordings
+[Rr]ecordings/
+
+# =========================================
+# Asset store tools
+# =========================================
+
+.vs/
+.idea/
+
+# =========================================
+# IDE files
+# =========================================
+
+# Visual Studio
+.vscode/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+
+# Rider
+.idea/
+*.sln.iml
+
+# =========================================
+# Unity generated solution files
+# =========================================
+
+ExportedObj/
+.consulo/
+
+# =========================================
+# Builds
+# =========================================
+
+*.apk
+*.aab
+*.unitypackage
+
+# =========================================
+# Crash reports
+# =========================================
+
+sysinfo.txt
+
+# =========================================
+# OS generated files
+# =========================================
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Linux
+*~
+
+# =========================================
+# Temporary files
+# =========================================
+
+*.tmp
+*.temp
+*.bak
+
+# =========================================
+# Test files
+# =========================================
+
+TestResults/
+
+# =========================================
+# Addressables
+# =========================================
+
+/Library/com.unity.addressables/
+
+# =========================================
+# Package manager lock (optional)
+# =========================================
+
+# Uncomment if you don't want to commit package lock files
+# Packages/packages-lock.json

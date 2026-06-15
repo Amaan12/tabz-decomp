@@ -1,33 +1,33 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: C:/Users/imama/Unity Projects/From Github Clones 2/tabz-decomp/Packages/manifest.json
+    m_FilePath: C:/Users/imama/Unity Projects/From Github Clones/tabz-decomp/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639048728430236744
-    m_Hash: 3238329855
+      ticks: 639171094125245130
+    m_Hash: 3527484264
   m_LockFileStatus:
-    m_FilePath: C:/Users/imama/Unity Projects/From Github Clones 2/tabz-decomp/Packages/packages-lock.json
+    m_FilePath: C:/Users/imama/Unity Projects/From Github Clones/tabz-decomp/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639048728430277023
-    m_Hash: 2395159336
+      ticks: 639171094309051251
+    m_Hash: 1984450019
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: C:/Users/imama/Unity Projects/From Github Clones 2/tabz-decomp/Packages
-m_EditorVersion: 6000.0.58f2 (92dee566b325)
+m_ProjectPath: C:/Users/imama/Unity Projects/From Github Clones/tabz-decomp/Packages
+m_EditorVersion: 6000.0.67f1 (78a1c2bbeb6a)
 m_ResolvedPackages:
-- packageId: com.unity.ai.navigation@2.0.9
+- packageId: com.unity.ai.navigation@2.0.10
   testable: 0
   isDirectDependency: 1
-  version: 2.0.9
+  version: 2.0.10
   source: 1
-  resolvedPath: C:\Users\imama\Unity Projects\From Github Clones 2\tabz-decomp\Library\PackageCache\com.unity.ai.navigation@5218e4bf7edc
+  resolvedPath: C:\Users\imama\Unity Projects\From Github Clones\tabz-decomp\Library\PackageCache\com.unity.ai.navigation@c33a115e9883
   assetPath: Packages/com.unity.ai.navigation
   name: com.unity.ai.navigation
   displayName: AI Navigation
@@ -66,9 +66,16 @@ m_ResolvedPackages:
     - 2.0.7
     - 2.0.8
     - 2.0.9
+    - 2.0.10
+    - 2.0.11
+    - 2.0.12
+    - 2.0.13
     compatible:
-    - 2.0.9
-    recommended: 2.0.9
+    - 2.0.10
+    - 2.0.11
+    - 2.0.12
+    - 2.0.13
+    recommended: 2.0.13
     deprecated: []
   dependencies:
   - name: com.unity.modules.ai
@@ -110,16 +117,16 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638919725134710000
+  datePublishedTicks: 639051061342660000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ai.navigation@2.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ai.navigation.git
-    revision: 91b1bd9119720d8e48b9f9de9ad18da1e8c1088e
+    revision: 9f4e312ce74b9f52fe0802ee70aefff75ce6edb8
     path: 
   unityLifecycle:
-    version: 2.0.9
+    version: 2.0.10
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -129,37 +136,28 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Added\n* New sample scene **9_agent_cornering_control**
-    to demonstrate controlling an agent''s velocity in order to better navigate tight
-    corners. ([UUM-59747](https://issuetracker.unity3d.com/product/unity/issues/guid/UUM-59747))\n\n###
-    Fixed\n* Fixed samples not correctly configuring navigation agent types when
-    imported into a project.\n* Foldouts in **AI Navigation** overlay collapse when
-    toggling settings. ([NAVB-144](https://issuetracker.unity3d.com/product/unity/issues/guid/NAVB-144))\n*
-    Fixed poor performance when enabling/disabling increasing numbers of NavMeshModifiers.
-    ([NAVB-96](https://issuetracker.unity3d.com/product/unity/issues/guid/NAVB-96))\n*
-    A small white square was displayed in the scene on top of the gizmo icons for
-    NavMesh Link, NavMesh Modifier Volume and NavMesh Surface. ([NAVB-154](https://issuetracker.unity3d.com/product/unity/issues/guid/NAVB-154))\n*
-    **Navigation Updater** no longer attempts to process scenes and prefabs from
-    the read-only **Packages** folder. ([NAVB-146](https://issuetracker.unity3d.com/product/unity/issues/guid/NAVB-146))"}'
+  upmReserved: '{"changelog":"### Fixed\n* Warning _Object.GetInstanceID()'' is obsolete:
+    ''GetInstanceID is deprecated_ was logged to the console in Unity 6.2 and newer.\n\n###
+    Changed\n* The unit test scripts are no longer delivered with the package."}'
   assetStore:
     productId: 
-  fingerprint: 5218e4bf7edc04fcad4ed3836c1c41aef334b996
+  fingerprint: c33a115e988396e6eb96aa3a58e9fa0a937d08d5
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 2.0.9
-    minimumUnityVersion: 6000.0.0a1
+    minimumPackageVersion: 2.0.10
+    minimumUnityVersion: 6000.0
   compliance:
     status: 0
     violation:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.collab-proxy@2.9.3
+- packageId: com.unity.collab-proxy@2.11.3
   testable: 0
   isDirectDependency: 1
-  version: 2.9.3
+  version: 2.11.3
   source: 1
-  resolvedPath: C:\Users\imama\Unity Projects\From Github Clones 2\tabz-decomp\Library\PackageCache\com.unity.collab-proxy@ab839cc7d2ad
+  resolvedPath: C:\Users\imama\Unity Projects\From Github Clones\tabz-decomp\Library\PackageCache\com.unity.collab-proxy@e566cd3e7623
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Unity Version Control
@@ -262,14 +260,13 @@ m_ResolvedPackages:
     - 2.10.2
     - 2.11.2
     - 2.11.3
+    - 2.11.4
+    - 2.12.4
     compatible:
-    - 2.9.3
-    - 2.10.0
-    - 2.10.1
-    - 2.10.2
-    - 2.11.2
     - 2.11.3
-    recommended: 2.9.3
+    - 2.11.4
+    - 2.12.4
+    recommended: 2.11.4
     deprecated: []
   dependencies: []
   resolvedDependencies: []
@@ -304,16 +301,16 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638924048898490000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.collab-proxy@2.9/manual/index.html
+  datePublishedTicks: 639047683637960000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.collab-proxy@2.11/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
-    revision: d05e170be4282c71223767f286e93871356512a1
+    revision: 23b6a337b59c8ad04d7b78f38448ad0addcb7954
     path: 
   unityLifecycle:
-    version: 2.9.3
+    version: 2.11.3
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -323,15 +320,15 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Fixed\n\n- Fixed the error that was thrown when
-    the \"Configure Unity Version Control\" button is pressed in the Build Automation
-    settings in Build Profiles"}'
+  upmReserved: '{"changelog":"### Fixed\n\n- Fixed accessing Editor internals directly
+    on versions below Unity 6.3.\n- Fixed a compilation error caused by an invalid
+    duplicated GUID in WaitForPendingOperations.cs.meta in 2.11.2."}'
   assetStore:
     productId: 
-  fingerprint: ab839cc7d2adf143e5378baf46edc31cbc5d84f7
+  fingerprint: e566cd3e762373591f6828e86f2018eed8021356
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 2.9.3
+    minimumPackageVersion: 2.11.3
     minimumUnityVersion: 2021.3.0f1
   compliance:
     status: 0
@@ -344,7 +341,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 5.1.4
   source: 1
-  resolvedPath: C:\Users\imama\Unity Projects\From Github Clones 2\tabz-decomp\Library\PackageCache\com.unity.formats.fbx@edcf227fb224
+  resolvedPath: C:\Users\imama\Unity Projects\From Github Clones\tabz-decomp\Library\PackageCache\com.unity.formats.fbx@edcf227fb224
   assetPath: Packages/com.unity.formats.fbx
   name: com.unity.formats.fbx
   displayName: FBX Exporter
@@ -393,10 +390,12 @@ m_ResolvedPackages:
     - 5.1.3
     - 5.1.4
     - 5.1.5
+    - 5.1.6
     compatible:
     - 5.1.4
     - 5.1.5
-    recommended: 5.1.5
+    - 5.1.6
+    recommended: 5.1.6
     deprecated: []
   dependencies:
   - name: com.autodesk.fbx
@@ -407,7 +406,7 @@ m_ResolvedPackages:
   - name: com.autodesk.fbx
     version: 5.1.1
   - name: com.unity.timeline
-    version: 1.8.9
+    version: 1.8.10
   - name: com.unity.modules.audio
     version: 1.0.0
   - name: com.unity.modules.director
@@ -464,7 +463,7 @@ m_ResolvedPackages:
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 5.1.4
-    minimumUnityVersion: 2020.3.0a1
+    minimumUnityVersion: 2020.3
   compliance:
     status: 0
     violation:
@@ -476,7 +475,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.0.39
   source: 1
-  resolvedPath: C:\Users\imama\Unity Projects\From Github Clones 2\tabz-decomp\Library\PackageCache\com.unity.ide.rider@4504839d03f7
+  resolvedPath: C:\Users\imama\Unity Projects\From Github Clones\tabz-decomp\Library\PackageCache\com.unity.ide.rider@4504839d03f7
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -541,11 +540,11 @@ m_ResolvedPackages:
     - 3.0.37
     - 3.0.38
     - 3.0.39
+    - 3.0.40
     compatible:
-    - 3.0.37
-    - 3.0.38
     - 3.0.39
-    recommended: 3.0.39
+    - 3.0.40
+    recommended: 3.0.40
     deprecated:
     - 3.0.37
   dependencies:
@@ -579,7 +578,7 @@ m_ResolvedPackages:
     revision: 4da98b83c4f1de974829959526a470c26a8fa9f4
     path: 
   unityLifecycle:
-    version: 3.0.37
+    version: 3.0.39
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -596,20 +595,20 @@ m_ResolvedPackages:
   fingerprint: 4504839d03f7a5a4495357084a0ffd6e439892cf
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 3.0.37
-    minimumUnityVersion: 2021.3.0a1
+    minimumPackageVersion: 3.0.39
+    minimumUnityVersion: 2021.3
   compliance:
     status: 0
     violation:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.ide.visualstudio@2.0.23
+- packageId: com.unity.ide.visualstudio@2.0.26
   testable: 0
   isDirectDependency: 1
-  version: 2.0.23
+  version: 2.0.26
   source: 1
-  resolvedPath: C:\Users\imama\Unity Projects\From Github Clones 2\tabz-decomp\Library\PackageCache\com.unity.ide.visualstudio@198cdf337d13
+  resolvedPath: C:\Users\imama\Unity Projects\From Github Clones\tabz-decomp\Library\PackageCache\com.unity.ide.visualstudio@a99d56dec63f
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -652,18 +651,18 @@ m_ResolvedPackages:
     - 2.0.23
     - 2.0.25
     - 2.0.26
+    - 2.0.27
     compatible:
-    - 2.0.23
-    - 2.0.25
     - 2.0.26
-    recommended: 2.0.26
+    - 2.0.27
+    recommended: 2.0.27
     deprecated: []
   dependencies:
   - name: com.unity.test-framework
-    version: 1.1.9
+    version: 1.1.33
   resolvedDependencies:
   - name: com.unity.test-framework
-    version: 1.5.1
+    version: 1.6.0
   - name: com.unity.ext.nunit
     version: 2.0.5
   - name: com.unity.modules.imgui
@@ -686,16 +685,16 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638786696173840000
+  datePublishedTicks: 639014773899080000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.visualstudio@2.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.visualstudio.git
-    revision: 0fe3b29f9aff2b90b9f0962ae35036a824d3dd6b
+    revision: a52ff32ff9e8cf43be6597597939ef63126ab463
     path: 
   unityLifecycle:
-    version: 2.0.23
+    version: 2.0.26
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -705,18 +704,16 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"Integration:\n\n- Monitor `additionalfile` extension
-    by default.\n- Try opening a Visual Studio Code workspace if there''s one (`.code-workspace`
-    file in the Unity project).\n\nProject generation:\n\n- Identify `asset`, `meta`,
-    `prefab` and `unity` files as `yaml` (Visual Studio Code).\n- Add `sln`/`csproj`
-    file nesting (Visual Studio Code).\n- Improve SDK style project generation."}'
+  upmReserved: '{"changelog":"Integration:\n\n- Fix handling of asset-pipeline refresh-mode
+    setting.\n\nProject generation:\n\n- Add `EnableOnDemandExcludedFolderLoading`
+    capability when generating SDK-Style project."}'
   assetStore:
     productId: 
-  fingerprint: 198cdf337d13c83ca953581515630d66b779e92b
+  fingerprint: a99d56dec63ffb3a911a5a9bce9b77ba862a601c
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 2.0.23
-    minimumUnityVersion: 2019.4.25f1
+    minimumPackageVersion: 2.0.26
+    minimumUnityVersion: 2021.3
   compliance:
     status: 0
     violation:
@@ -728,7 +725,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.2.5
   source: 1
-  resolvedPath: C:\Users\imama\Unity Projects\From Github Clones 2\tabz-decomp\Library\PackageCache\com.unity.ide.vscode@82e68656b7bd
+  resolvedPath: C:\Users\imama\Unity Projects\From Github Clones\tabz-decomp\Library\PackageCache\com.unity.ide.vscode@82e68656b7bd
   assetPath: Packages/com.unity.ide.vscode
   name: com.unity.ide.vscode
   displayName: Visual Studio Code Editor
@@ -830,7 +827,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\imama\Unity Projects\From Github Clones 2\tabz-decomp\Library\PackageCache\com.unity.multiplayer.center@f3fb577b3546
+  resolvedPath: C:\Users\imama\Unity Projects\From Github Clones\tabz-decomp\Library\PackageCache\com.unity.multiplayer.center@f3fb577b3546
   assetPath: Packages/com.unity.multiplayer.center
   name: com.unity.multiplayer.center
   displayName: Multiplayer Center
@@ -911,19 +908,19 @@ m_ResolvedPackages:
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
-    minimumUnityVersion: 6000.0.0a1
+    minimumUnityVersion: 6000.0
   compliance:
     status: 0
     violation:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.test-framework@1.5.1
+- packageId: com.unity.test-framework@1.6.0
   testable: 0
   isDirectDependency: 1
-  version: 1.5.1
+  version: 1.6.0
   source: 2
-  resolvedPath: C:\Users\imama\Unity Projects\From Github Clones 2\tabz-decomp\Library\PackageCache\com.unity.test-framework@1f954279c37e
+  resolvedPath: C:\Users\imama\Unity Projects\From Github Clones\tabz-decomp\Library\PackageCache\com.unity.test-framework@24afccc4ed24
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -937,10 +934,10 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
-    - 1.5.1
+    - 1.6.0
     compatible:
-    - 1.5.1
-    recommended: 1.5.1
+    - 1.6.0
+    recommended: 1.6.0
     deprecated: []
   dependencies:
   - name: com.unity.ext.nunit
@@ -983,7 +980,7 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 1.5.1
+    version: 1.6.0
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -996,10 +993,10 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: 1f954279c37e8ebe39ba5255476ba9f21e2a19ec
+  fingerprint: 24afccc4ed2476477802ab9f82162fa9da7933dc
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 1.5.1
+    minimumPackageVersion: 1.6.0
     minimumUnityVersion: 6000.0.44f1
   compliance:
     status: 0
@@ -1007,12 +1004,12 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.timeline@1.8.9
+- packageId: com.unity.timeline@1.8.10
   testable: 0
   isDirectDependency: 1
-  version: 1.8.9
+  version: 1.8.10
   source: 1
-  resolvedPath: C:\Users\imama\Unity Projects\From Github Clones 2\tabz-decomp\Library\PackageCache\com.unity.timeline@6b9e48457ddb
+  resolvedPath: C:\Users\imama\Unity Projects\From Github Clones\tabz-decomp\Library\PackageCache\com.unity.timeline@7f8b2fb101b6
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -1117,10 +1114,13 @@ m_ResolvedPackages:
     - 1.8.8
     - 1.8.9
     - 1.8.10
+    - 1.8.11
+    - 1.8.12
     compatible:
-    - 1.8.9
     - 1.8.10
-    recommended: 1.8.10
+    - 1.8.11
+    - 1.8.12
+    recommended: 1.8.12
     deprecated: []
   dependencies:
   - name: com.unity.modules.audio
@@ -1161,16 +1161,16 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638900049118440000
+  datePublishedTicks: 639010941520280000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.timeline@1.8/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.timeline.git
-    revision: 5d309c1b02350ecb7093a4001d66afb1a238fc50
+    revision: a83681b24217526a0f539d70ddca4abf270a5ada
     path: 
   unityLifecycle:
-    version: 1.8.9
+    version: 1.8.10
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -1180,26 +1180,17 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Added\n\n- Added profiler markers for Timeline
-    graph creation and evaluation. (ATL-2108)\n\n### Fixed\n\n- Fix custom implementation
-    of AnimationTrack not being able to record and not having access to AnimationTrack
-    actions through the context menu. (TB-333)\n- Fix an issue where custom Tracks
-    and Clips Editors code is marked as unused in Rider even when they are associated
-    with a specific Clip or Track Asset. (TB-334)\n- Fix and issue where a clip Inspector
-    with an embedded playable asset inspector can leak when selection changes with
-    2 inspector windows opened. (TB-324)\n- Fix Editing Track label while Track is
-    selected makes text lose the white color. (TB-336)\n- Maximizing and Restoring
-    the Timeline Window will now keep editing the previous Timeline (TB-289)\n- Added
-    a warning when trying to add a custom track whose class name would not match
-    the file name. (TB-329)\n- Fixed an issue where timeline duration incorrectly
-    included tracks muted via hierarchy. (TB-326)"}'
+  upmReserved: '{"changelog":"### Fixed\n\n- Fix compilation error for version 2023.2
+    of the editor (TB-352)\n- Fixed an issue where it was possible for 2 clips to
+    have a micro overlap that was not detected as a blend, resulting in both clips
+    playing at the same time with a weight of one. (TB-345)"}'
   assetStore:
     productId: 
-  fingerprint: 6b9e48457ddb4f64813d77fd77efc79a8f3102ae
+  fingerprint: 7f8b2fb101b6053cc7472330401e94ff0c17b204
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 1.8.9
-    minimumUnityVersion: 2021.3.0a1
+    minimumPackageVersion: 1.8.10
+    minimumUnityVersion: 2022.3
   compliance:
     status: 0
     violation:
@@ -1211,7 +1202,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.0
   source: 2
-  resolvedPath: C:\Users\imama\Unity Projects\From Github Clones 2\tabz-decomp\Library\PackageCache\com.unity.ugui@aa507f3228f0
+  resolvedPath: C:\Users\imama\Unity Projects\From Github Clones\tabz-decomp\Library\PackageCache\com.unity.ugui@cec3688a7c38
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: Unity UI
@@ -1290,11 +1281,11 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: aa507f3228f0351d0fbba1e8c7142b41bc567fe8
+  fingerprint: cec3688a7c389f738c34a22466c335d237d36690
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 2.0.0
-    minimumUnityVersion: 2019.2.0a1
+    minimumUnityVersion: 2019.2
   compliance:
     status: 0
     violation:
@@ -1306,7 +1297,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.58f2-x86_64\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.accessibility
+  resolvedPath: C:\Users\imama\Unity Projects\From Github Clones\tabz-decomp\Library\PackageCache\com.unity.modules.accessibility
   assetPath: Packages/com.unity.modules.accessibility
   name: com.unity.modules.accessibility
   displayName: Accessibility
@@ -1382,7 +1373,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.58f2-x86_64\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ai
+  resolvedPath: C:\Users\imama\Unity Projects\From Github Clones\tabz-decomp\Library\PackageCache\com.unity.modules.ai
   assetPath: Packages/com.unity.modules.ai
   name: com.unity.modules.ai
   displayName: AI
@@ -1458,7 +1449,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.58f2-x86_64\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.androidjni
+  resolvedPath: C:\Users\imama\Unity Projects\From Github Clones\tabz-decomp\Library\PackageCache\com.unity.modules.androidjni
   assetPath: Packages/com.unity.modules.androidjni
   name: com.unity.modules.androidjni
   displayName: Android JNI
@@ -1533,7 +1524,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.58f2-x86_64\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.animation
+  resolvedPath: C:\Users\imama\Unity Projects\From Github Clones\tabz-decomp\Library\PackageCache\com.unity.modules.animation
   assetPath: Packages/com.unity.modules.animation
   name: com.unity.modules.animation
   displayName: Animation
@@ -1609,7 +1600,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.58f2-x86_64\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.assetbundle
+  resolvedPath: C:\Users\imama\Unity Projects\From Github Clones\tabz-decomp\Library\PackageCache\com.unity.modules.assetbundle
   assetPath: Packages/com.unity.modules.assetbundle
   name: com.unity.modules.assetbundle
   displayName: Asset Bundle
@@ -1685,7 +1676,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.58f2-x86_64\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.audio
+  resolvedPath: C:\Users\imama\Unity Projects\From Github Clones\tabz-decomp\Library\PackageCache\com.unity.modules.audio
   assetPath: Packages/com.unity.modules.audio
   name: com.unity.modules.audio
   displayName: Audio
@@ -1761,7 +1752,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.58f2-x86_64\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.cloth
+  resolvedPath: C:\Users\imama\Unity Projects\From Github Clones\tabz-decomp\Library\PackageCache\com.unity.modules.cloth
   assetPath: Packages/com.unity.modules.cloth
   name: com.unity.modules.cloth
   displayName: Cloth
@@ -1841,7 +1832,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.58f2-x86_64\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.director
+  resolvedPath: C:\Users\imama\Unity Projects\From Github Clones\tabz-decomp\Library\PackageCache\com.unity.modules.director
   assetPath: Packages/com.unity.modules.director
   name: com.unity.modules.director
   displayName: Director
@@ -1925,7 +1916,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.58f2-x86_64\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imageconversion
+  resolvedPath: C:\Users\imama\Unity Projects\From Github Clones\tabz-decomp\Library\PackageCache\com.unity.modules.imageconversion
   assetPath: Packages/com.unity.modules.imageconversion
   name: com.unity.modules.imageconversion
   displayName: Image Conversion
@@ -2001,7 +1992,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.58f2-x86_64\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imgui
+  resolvedPath: C:\Users\imama\Unity Projects\From Github Clones\tabz-decomp\Library\PackageCache\com.unity.modules.imgui
   assetPath: Packages/com.unity.modules.imgui
   name: com.unity.modules.imgui
   displayName: IMGUI
@@ -2077,7 +2068,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.58f2-x86_64\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.jsonserialize
+  resolvedPath: C:\Users\imama\Unity Projects\From Github Clones\tabz-decomp\Library\PackageCache\com.unity.modules.jsonserialize
   assetPath: Packages/com.unity.modules.jsonserialize
   name: com.unity.modules.jsonserialize
   displayName: JSONSerialize
@@ -2153,7 +2144,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.58f2-x86_64\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.particlesystem
+  resolvedPath: C:\Users\imama\Unity Projects\From Github Clones\tabz-decomp\Library\PackageCache\com.unity.modules.particlesystem
   assetPath: Packages/com.unity.modules.particlesystem
   name: com.unity.modules.particlesystem
   displayName: Particle System
@@ -2229,7 +2220,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.58f2-x86_64\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics
+  resolvedPath: C:\Users\imama\Unity Projects\From Github Clones\tabz-decomp\Library\PackageCache\com.unity.modules.physics
   assetPath: Packages/com.unity.modules.physics
   name: com.unity.modules.physics
   displayName: Physics
@@ -2305,7 +2296,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.58f2-x86_64\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics2d
+  resolvedPath: C:\Users\imama\Unity Projects\From Github Clones\tabz-decomp\Library\PackageCache\com.unity.modules.physics2d
   assetPath: Packages/com.unity.modules.physics2d
   name: com.unity.modules.physics2d
   displayName: Physics 2D
@@ -2381,7 +2372,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.58f2-x86_64\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.screencapture
+  resolvedPath: C:\Users\imama\Unity Projects\From Github Clones\tabz-decomp\Library\PackageCache\com.unity.modules.screencapture
   assetPath: Packages/com.unity.modules.screencapture
   name: com.unity.modules.screencapture
   displayName: Screen Capture
@@ -2461,7 +2452,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.58f2-x86_64\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrain
+  resolvedPath: C:\Users\imama\Unity Projects\From Github Clones\tabz-decomp\Library\PackageCache\com.unity.modules.terrain
   assetPath: Packages/com.unity.modules.terrain
   name: com.unity.modules.terrain
   displayName: Terrain
@@ -2537,7 +2528,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.58f2-x86_64\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrainphysics
+  resolvedPath: C:\Users\imama\Unity Projects\From Github Clones\tabz-decomp\Library\PackageCache\com.unity.modules.terrainphysics
   assetPath: Packages/com.unity.modules.terrainphysics
   name: com.unity.modules.terrainphysics
   displayName: Terrain Physics
@@ -2621,7 +2612,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.58f2-x86_64\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.tilemap
+  resolvedPath: C:\Users\imama\Unity Projects\From Github Clones\tabz-decomp\Library\PackageCache\com.unity.modules.tilemap
   assetPath: Packages/com.unity.modules.tilemap
   name: com.unity.modules.tilemap
   displayName: Tilemap
@@ -2700,7 +2691,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.58f2-x86_64\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ui
+  resolvedPath: C:\Users\imama\Unity Projects\From Github Clones\tabz-decomp\Library\PackageCache\com.unity.modules.ui
   assetPath: Packages/com.unity.modules.ui
   name: com.unity.modules.ui
   displayName: UI
@@ -2776,7 +2767,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.58f2-x86_64\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.uielements
+  resolvedPath: C:\Users\imama\Unity Projects\From Github Clones\tabz-decomp\Library\PackageCache\com.unity.modules.uielements
   assetPath: Packages/com.unity.modules.uielements
   name: com.unity.modules.uielements
   displayName: UIElements
@@ -2868,7 +2859,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.58f2-x86_64\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.umbra
+  resolvedPath: C:\Users\imama\Unity Projects\From Github Clones\tabz-decomp\Library\PackageCache\com.unity.modules.umbra
   assetPath: Packages/com.unity.modules.umbra
   name: com.unity.modules.umbra
   displayName: Umbra
@@ -2944,7 +2935,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.58f2-x86_64\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unityanalytics
+  resolvedPath: C:\Users\imama\Unity Projects\From Github Clones\tabz-decomp\Library\PackageCache\com.unity.modules.unityanalytics
   assetPath: Packages/com.unity.modules.unityanalytics
   name: com.unity.modules.unityanalytics
   displayName: Unity Analytics
@@ -3027,7 +3018,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.58f2-x86_64\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequest
+  resolvedPath: C:\Users\imama\Unity Projects\From Github Clones\tabz-decomp\Library\PackageCache\com.unity.modules.unitywebrequest
   assetPath: Packages/com.unity.modules.unitywebrequest
   name: com.unity.modules.unitywebrequest
   displayName: Unity Web Request
@@ -3103,7 +3094,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.58f2-x86_64\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestassetbundle
+  resolvedPath: C:\Users\imama\Unity Projects\From Github Clones\tabz-decomp\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle
   assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
   name: com.unity.modules.unitywebrequestassetbundle
   displayName: Unity Web Request Asset Bundle
@@ -3187,7 +3178,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.58f2-x86_64\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestaudio
+  resolvedPath: C:\Users\imama\Unity Projects\From Github Clones\tabz-decomp\Library\PackageCache\com.unity.modules.unitywebrequestaudio
   assetPath: Packages/com.unity.modules.unitywebrequestaudio
   name: com.unity.modules.unitywebrequestaudio
   displayName: Unity Web Request Audio
@@ -3271,7 +3262,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.58f2-x86_64\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequesttexture
+  resolvedPath: C:\Users\imama\Unity Projects\From Github Clones\tabz-decomp\Library\PackageCache\com.unity.modules.unitywebrequesttexture
   assetPath: Packages/com.unity.modules.unitywebrequesttexture
   name: com.unity.modules.unitywebrequesttexture
   displayName: Unity Web Request Texture
@@ -3355,7 +3346,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.58f2-x86_64\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestwww
+  resolvedPath: C:\Users\imama\Unity Projects\From Github Clones\tabz-decomp\Library\PackageCache\com.unity.modules.unitywebrequestwww
   assetPath: Packages/com.unity.modules.unitywebrequestwww
   name: com.unity.modules.unitywebrequestwww
   displayName: Unity Web Request WWW
@@ -3455,7 +3446,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.58f2-x86_64\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vehicles
+  resolvedPath: C:\Users\imama\Unity Projects\From Github Clones\tabz-decomp\Library\PackageCache\com.unity.modules.vehicles
   assetPath: Packages/com.unity.modules.vehicles
   name: com.unity.modules.vehicles
   displayName: Vehicles
@@ -3535,7 +3526,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.58f2-x86_64\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.video
+  resolvedPath: C:\Users\imama\Unity Projects\From Github Clones\tabz-decomp\Library\PackageCache\com.unity.modules.video
   assetPath: Packages/com.unity.modules.video
   name: com.unity.modules.video
   displayName: Video
@@ -3623,7 +3614,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.58f2-x86_64\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vr
+  resolvedPath: C:\Users\imama\Unity Projects\From Github Clones\tabz-decomp\Library\PackageCache\com.unity.modules.vr
   assetPath: Packages/com.unity.modules.vr
   name: com.unity.modules.vr
   displayName: VR
@@ -3713,7 +3704,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.58f2-x86_64\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.wind
+  resolvedPath: C:\Users\imama\Unity Projects\From Github Clones\tabz-decomp\Library\PackageCache\com.unity.modules.wind
   assetPath: Packages/com.unity.modules.wind
   name: com.unity.modules.wind
   displayName: Wind
@@ -3789,7 +3780,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.58f2-x86_64\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.xr
+  resolvedPath: C:\Users\imama\Unity Projects\From Github Clones\tabz-decomp\Library\PackageCache\com.unity.modules.xr
   assetPath: Packages/com.unity.modules.xr
   name: com.unity.modules.xr
   displayName: XR
@@ -3877,7 +3868,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.58f2-x86_64\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.subsystems
+  resolvedPath: C:\Users\imama\Unity Projects\From Github Clones\tabz-decomp\Library\PackageCache\com.unity.modules.subsystems
   assetPath: Packages/com.unity.modules.subsystems
   name: com.unity.modules.subsystems
   displayName: Subsystems
@@ -3957,7 +3948,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.58f2-x86_64\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.hierarchycore
+  resolvedPath: C:\Users\imama\Unity Projects\From Github Clones\tabz-decomp\Library\PackageCache\com.unity.modules.hierarchycore
   assetPath: Packages/com.unity.modules.hierarchycore
   name: com.unity.modules.hierarchycore
   displayName: Hierarchy Core
@@ -4033,7 +4024,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.5
   source: 2
-  resolvedPath: C:\Users\imama\Unity Projects\From Github Clones 2\tabz-decomp\Library\PackageCache\com.unity.ext.nunit@031a54704bff
+  resolvedPath: C:\Users\imama\Unity Projects\From Github Clones\tabz-decomp\Library\PackageCache\com.unity.ext.nunit@031a54704bff
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit
@@ -4100,7 +4091,7 @@ m_ResolvedPackages:
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 2.0.5
-    minimumUnityVersion: 2019.4.0a1
+    minimumUnityVersion: 2019.4
   compliance:
     status: 0
     violation:
@@ -4112,7 +4103,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 5.1.1
   source: 1
-  resolvedPath: C:\Users\imama\Unity Projects\From Github Clones 2\tabz-decomp\Library\PackageCache\com.autodesk.fbx@5797ff6b31c7
+  resolvedPath: C:\Users\imama\Unity Projects\From Github Clones\tabz-decomp\Library\PackageCache\com.autodesk.fbx@5797ff6b31c7
   assetPath: Packages/com.autodesk.fbx
   name: com.autodesk.fbx
   displayName: Autodesk FBX SDK for Unity
@@ -4153,10 +4144,12 @@ m_ResolvedPackages:
     - 5.1.0
     - 5.1.1
     - 5.1.2
+    - 5.1.3
     compatible:
     - 5.1.1
     - 5.1.2
-    recommended: 5.1.2
+    - 5.1.3
+    recommended: 5.1.3
     deprecated: []
   dependencies: []
   resolvedDependencies: []
@@ -4208,11 +4201,11 @@ m_ResolvedPackages:
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 5.1.1
-    minimumUnityVersion: 2020.3.0a1
+    minimumUnityVersion: 2020.3
   compliance:
     status: 0
     violation:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-m_BuiltInPackagesHash: b3d02e3deddd8a927eeb837601a0b99a26c33282
+m_BuiltInPackagesHash: 5011cf21e324111d78417735024108866ca67056
